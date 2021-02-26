@@ -4,12 +4,10 @@ const Typography = createGlobalStyle`
   html,
   body {
     font: 9px/1.75 "Quicksand";
-    font-variation-settings: "wght" 500;
-    font-weight: normal;
-    font-smooth: initial;
-    color: var(--white);
     font-variation-settings: "wght" 700;
     font-weight: 700;
+    font-smooth: initial;
+    color: var(--white);
   }
 
   h1 {
