@@ -1,7 +1,7 @@
 {
   "name": "moharnadreza.dev",
   "version": "1.0.0",
-  "description": "My Personal website!",
+  "description": "My personal website!",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
