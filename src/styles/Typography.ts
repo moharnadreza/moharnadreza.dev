@@ -22,18 +22,18 @@ const Typography = createGlobalStyle`
 
   p {
     font-size: 1.728rem;
-    font-size: clamp(1.2rem, 5vw, 1.728rem);
+    font-size: clamp(1rem, 5vw, 1.728rem);
     margin: 0;
   }
 
   small {
-    font-size: 1.2rem;
-    font-size: clamp(1rem, 5vw, 1.2rem);
+    font-size: 1rem;
+    font-size: clamp(1rem, 5vw, 1rem);
   }
 
   a {
     font-size: 1.728rem;
-    font-size: clamp(1.2rem, 5vw, 1.728rem);
+    font-size: clamp(1rem, 5vw, 1.728rem);
     color: inherit;
   }
 
