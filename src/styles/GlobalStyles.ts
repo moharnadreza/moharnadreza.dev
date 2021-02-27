@@ -39,9 +39,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   #___gatsby {
-    width: 100%;
     max-width: 100%;
-    min-width: 100%;
   }
 `;
 
