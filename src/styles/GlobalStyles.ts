@@ -38,16 +38,6 @@ const GlobalStyles = createGlobalStyle`
     background-color: var(--black);
   }
 
-  ::-moz-selection {
-    color: var(--violet);
-    background: transparent;
-  }
-
-  ::selection {
-    color: var(--violet);
-    background: transparent;
-  }
-
   #___gatsby {
     width: 100%;
     max-width: 100%;

@@ -9,8 +9,7 @@ const LayoutStyles = styled.div`
   max-width: clamp(100vw, 5vw, 50vw);
   height: calc(100vh - 16rem);
   margin: auto;
-  padding: 8rem;
-  padding: clamp(2rem, 5vw, 8rem);
+  padding: 8rem 2rem;
   display: grid;
   place-items: center;
 `;

@@ -27,8 +27,8 @@ const Typography = createGlobalStyle`
   }
 
   small {
-    font-size: 1rem;
-    font-size: clamp(1rem, 5vw, 1rem);
+    font-size: 1.728rem;
+    font-size: clamp(1rem, 5vw, 1.728rem);
   }
 
   a {

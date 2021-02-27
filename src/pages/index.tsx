@@ -4,20 +4,6 @@ import styled from "styled-components";
 
 import { LinkCard } from "../components";
 
-const HeaderStyles = styled.div`
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-`;
-
-const SocialWrapperStyles = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const DividerStyles = styled.small`
-  margin: 0 0.5rem;
-`;
-
 interface IHome {
   data: {
     site: {
@@ -32,6 +18,24 @@ interface IHome {
     };
   };
 }
+
+const HeaderStyles = styled.div`
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+`;
+
+const SocialWrapperStyles = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+const DividerStyles = styled.small`
+  margin: 0 0.5rem;
+`;
+
+const SocialLinkStyles = styled.div`
+  margin-bottom: 1rem;
+`;
 
 const Home: FC<IHome> = ({ data }): JSX.Element => {
   const {
@@ -51,10 +55,10 @@ const Home: FC<IHome> = ({ data }): JSX.Element => {
           const isLastItem = i === social.length - 1;
 
           return (
-            <div key={i}>
+            <SocialLinkStyles key={i}>
               <LinkCard {...item} />
               {!isLastItem && <DividerStyles>/</DividerStyles>}
-            </div>
+            </SocialLinkStyles>
           );
         })}
       </SocialWrapperStyles>
